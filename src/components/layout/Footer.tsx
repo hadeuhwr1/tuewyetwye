@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
               </span>
             </div>
             <p className="text-gray-400 text-sm">
-            An Earth-Smoketron partnership: harnessing Etherion on Base Network for a shared, prosperous future.
+              An Earth-Smoketron partnership: harnessing Etherion on Base Network for a shared, prosperous future.
             </p>
           </div>
 
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
           <div className="md:col-span-1">
             <h3 className="font-orbitron text-white mb-4">Navigation</h3>
             <ul className="space-y-2">
-              {['Mission', 'Story', 'Technology', 'Community', 'Join'].map((item) => (
+              {['Mission', 'Story', 'Roadmap', 'Community', 'Join'].map((item) => (
                 <li key={item}>
                   <a 
                     href={`#${item.toLowerCase()}`} 

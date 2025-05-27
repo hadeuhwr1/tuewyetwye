@@ -46,3 +46,5 @@ if (currentStep === 'main_application') {
 }
 
 // ... (rest of the code remains the same)
+
+export default Footer
