@@ -145,7 +145,7 @@ const Header = React.memo<HeaderProps>(({ onStoryMenuReset }) => {
   const ProfileMenuContent = useMemo(() => {
     if (!address) return null;
     return (
-      <div className="p-4" style={{ overflowY: 'auto' }}>
+      <div className="p-4\" style={{ overflowY: 'auto' }}>
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-cyan-glow font-orbitron">Wallet Profile</h3>
           <button onClick={() => { playSound('/assets/sounds/robot-click.wav'); closeProfileMenu(); }} className="text-gray-400 hover:text-cyan-glow transition-colors">
