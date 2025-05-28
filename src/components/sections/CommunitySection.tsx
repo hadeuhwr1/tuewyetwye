@@ -75,7 +75,7 @@ const CommunitySection: React.FC = () => {
       name: "Smoke King",
       role: "Mission Commander",
       imageUrl: "/assets/images/smokeking.png",
-      quote: "Together, Smoketron and Earth will harness Etherion's power. Join our alliance, valued Terran partners!",
+      quote: "Together, Smoketron and Earth will unleash $CIGAR's potential. Join our alliance, valued Terran partners!",
       delay: 100
     },
     {
@@ -119,7 +119,7 @@ const CommunitySection: React.FC = () => {
           <p className="text-magenta-glow font-exo uppercase tracking-widest mb-4">The Fleet</p>
           <h2 className="section-title">Meet Our <span className="text-magenta-glow magenta-glow">Alien</span> Crew</h2>
           <p className="section-subtitle">
-          The brave Smoketronians, spearheading a joint Earth-Smoketron mission to harness Etherion for all.
+          The brave Smoketronians, spearheading a joint Earth-Smoketron mission to restore $CIGAR for all.
           </p>
         </div>
         
