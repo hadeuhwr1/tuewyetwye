@@ -86,7 +86,7 @@ const JoinMissionSection: React.FC = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-on-scroll opacity-0 translate-y-10 transition-all duration-700">
             <Rocket className="h-12 w-12 text-cyan-glow mx-auto mb-4" />
-            <h2 className="section-title">Join The <span className="text-cyan-glow glow-text">Mission</span></h2>
+            <h2 className="section-title">Accept The <span className="text-cyan-glow glow-text">Call</span></h2>
             <p className="section-subtitle">
             Answer the call to an interstellar quest. Secure your place in the $CIGAR airdrop, join a mission of mutual advancement, and earn your share.
             </p>
@@ -133,7 +133,7 @@ const JoinMissionSection: React.FC = () => {
                 <CheckCircle className="h-16 w-16 text-cyan-glow mx-auto mb-4" />
                 <h3 className="font-orbitron text-2xl text-white mb-2">Registration Complete!</h3>
                 <p className="text-gray-300 mb-6">
-                Welcome, Terran Ally! You're in the $CIGAR mission. Await news on the $CIGAR airdrop.
+                Welcome, Terran Ally! The stars themselves will remember your choice.
                 </p>
                 
                 {/* Bagian Referral Link */}
@@ -141,7 +141,7 @@ const JoinMissionSection: React.FC = () => {
                   <div className="mt-8 pt-6 border-t border-cyan-glow/20">
                     <div className="flex items-center justify-center mb-3">
                         <Share2 className="h-5 w-5 text-magenta-glow mr-2"/>
-                        <h4 className="font-orbitron text-lg text-magenta-glow">Share Your Referral Link!</h4>
+                        <h4 className="font-orbitron text-lg text-magenta-glow">Share this signal with other worthy allies</h4>
                     </div>
                     <p className="text-gray-400 text-sm mb-4">
                       Invite others to join the mission and earn potential rewards.
