@@ -28,6 +28,15 @@ const HeroSection: React.FC = () => {
       nextSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
+
+  const handleDownloadWhitepaper = () => {
+    const link = document.createElement('a');
+    link.href = '/whitepaper.pdf';
+    link.download = 'whitepaper.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   
   return (
     <section 
@@ -83,21 +92,14 @@ const HeroSection: React.FC = () => {
         </div>
         
         <p className="font-spaceMono text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-        Harnessing Etherion on Base Network for the mutual benefit of two worlds.
+        $CIGAR is more than a token. It's a mission. And you're now part of it.
         </p>
-        
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg">
             Begin The Mission
           </Button>
-          <Button 
-            variant="outline" 
-            size="lg" 
-            glowColor="magenta" 
-            disabled
-            className="opacity-50 cursor-not-allowed"
-          >
-            Whitepaper (Coming Soon)
+          <Button variant="outline" size="lg" glowColor="magenta" onClick={handleDownloadWhitepaper}>
+            View Whitepaper
           </Button>
         </div>
       </div>
