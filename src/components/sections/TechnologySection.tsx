@@ -65,9 +65,9 @@ const TechnologySection: React.FC = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-on-scroll opacity-0 translate-y-10 transition-all duration-700">
           <p className="text-electric-blue font-exo uppercase tracking-widest mb-4">Advanced Systems</p>
-          <h2 className="section-title">Etherion <span className="text-electric-blue electric-blue-glow">Extraction</span> Tech</h2>
+          <h2 className="section-title">Powering <span className="text-electric-blue electric-blue-glow">$CIGAR</span> With BASE</h2>
           <p className="section-subtitle">
-          Our cooperative protocol uses advanced Smoketronian tech to channel Etherion, ensuring mutual benefits and tech uplift for Earth's allies.
+          Leveraging Base Network's robust architecture to empower $CIGAR technology for a new era of shared success.
           </p>
         </div>
         
@@ -86,8 +86,8 @@ const TechnologySection: React.FC = () => {
                   }}
                 ></div>
               </div>
-              <h3 className="font-orbitron text-lg text-cyan-glow">Earth Network</h3>
-              <p className="text-gray-400 text-xs mt-1">Source of Etherion</p>
+              <h3 className="font-orbitron text-lg text-cyan-glow">Earth's Network</h3>
+              <p className="text-gray-400 text-xs mt-1">The Foundational Host</p>
             </div>
             
             {/* Protocol */}
@@ -95,8 +95,8 @@ const TechnologySection: React.FC = () => {
               <div className="h-28 w-28 rounded-full border-4 border-electric-blue glow-box flex items-center justify-center bg-gray-900/70 mb-4">
                 <span className="font-orbitron text-xl text-electric-blue">$CIGAR</span>
               </div>
-              <h3 className="font-orbitron text-lg text-electric-blue">Extraction Protocol</h3>
-              <p className="text-gray-400 text-xs mt-1">Processing & Distribution</p>
+              <h3 className="font-orbitron text-lg text-electric-blue">Smoketron's Core Technology</h3>
+              <p className="text-gray-400 text-xs mt-1">Deployment on Base</p>
             </div>
             
             {/* Smoketron */}
@@ -111,7 +111,7 @@ const TechnologySection: React.FC = () => {
                 ></div>
               </div>
               <h3 className="font-orbitron text-lg text-magenta-glow">Smoketron</h3>
-              <p className="text-gray-400 text-xs mt-1">Energy Consumption</p>
+              <p className="text-gray-400 text-xs mt-1">Pioneering the Alliance</p>
             </div>
           </div>
         </div>
@@ -120,14 +120,14 @@ const TechnologySection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <TechCard 
             icon={<Code className="h-8 w-8 text-cyan-glow" />}
-            title="Smart Contracts"
-            description="Self-executing contracts with autonomous validation mechanisms powered by Smoketronian quantum computing."
+            title="Alliance Contracts"
+            description="Auto-executing agreements ensuring fair $CIGAR operations on Base."
             delay={100}
           />
           <TechCard 
             icon={<Database className="h-8 w-8 text-cyan-glow" />}
-            title="Token System"
-            description="Proprietary token model that ensures fair distribution of Etherion energy between Earth and Smoketron participants."
+            title="Shared Value System"
+            description="A balanced $CIGAR token model rewarding all alliance participants."
             delay={200}
           />
           <TechCard 
@@ -138,7 +138,7 @@ const TechnologySection: React.FC = () => {
           />
           <TechCard 
             icon={<Lock className="h-8 w-8 text-cyan-glow" />}
-            title="Encryption"
+            title="Encription"
             description="Military-grade encryption using algorithms developed by Smoketron's elite alien cryptographers."
             delay={400}
           />
