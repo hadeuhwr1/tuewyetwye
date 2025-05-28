@@ -170,7 +170,7 @@ function App() {
     );
   }
   
-  return <div className="fixed inset-0 bg-black flex items-center justify-center"><p className="text-red-500">Error: Reached unknown application step. Current step: {currentStep}</p></div>;
+return <div className="fixed inset-0 bg-black flex items-center justify-center"><p className="text-red-500">Error: Reached unknown application step. Current step: {currentStep}</p></div>;
 }
 
 export default App;
