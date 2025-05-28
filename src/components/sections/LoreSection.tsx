@@ -40,10 +40,10 @@ const LoreSection: React.FC = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-on-scroll opacity-0 translate-y-10 transition-all duration-700">
-          <p className="text-magenta-glow font-exo uppercase tracking-widest mb-4">Classified Archives</p>
-          <h2 className="section-title">Chronicles of <span className="text-magenta-glow magenta-glow">Smoketron</span></h2>
+          <p className="text-magenta-glow font-exo uppercase tracking-widest mb-4">Protocol Archives</p>
+          <h2 className="section-title">Legacy of <span className="text-magenta-glow magenta-glow">Smoketron</span></h2>
           <p className="section-subtitle">
-            A civilization's desperate plea echoes across the stars. Their fate—and untold rewards—now rest in Terran hands.
+            A technological marvel seeks worthy allies from Earth. The $CIGAR protocol stands ready for its next evolution.
           </p>
         </div>
         
@@ -60,8 +60,8 @@ const LoreSection: React.FC = () => {
               ></div>
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-4">
-                <h3 className="font-orbitron text-xl text-white">Smoketron: A World in Crisis</h3>
-                <p className="text-cyan-glow text-sm">Birthplace of the $CIGAR Protocol</p>
+                <h3 className="font-orbitron text-xl text-white">The Advanced World</h3>
+                <p className="text-cyan-glow text-sm">Architects of the $CIGAR Protocol</p>
               </div>
             </div>
             
@@ -69,20 +69,20 @@ const LoreSection: React.FC = () => {
               <div className="flex items-start">
                 <Shield className="h-6 w-6 text-magenta-glow mr-3 mt-1 shrink-0" />
                 <p className="text-gray-300">
-                  Once masters of quantum technology, Smoketron's civilization channeled their genius into $CIGAR—a self-evolving protocol that promised eternal prosperity.
+                  Smoketron: a civilization of unparalleled technological achievement. Their crowning creation, the $CIGAR protocol, represented the pinnacle of their quantum engineering prowess.
                 </p>
               </div>
               
               <div className="flex items-start">
                 <Zap className="h-6 w-6 text-magenta-glow mr-3 mt-1 shrink-0" />
                 <p className="text-gray-300">
-                  The Krellnic Inversion struck without warning. Reality itself seemed to fracture. Their masterwork, $CIGAR, lay dormant—but not dead. It awaits a new foundation.
+                  When the Krellnic Inversion altered their quantum landscape, they adapted. Now, they've discovered Earth's Base Network—a perfect complement to evolve $CIGAR beyond its original design.
                 </p>
               </div>
             </div>
           </div>
           
-          {/* The Mission */}
+          {/* The Alliance */}
           <div className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-200 h-full flex flex-col">
             <div className="relative h-64 mb-6 overflow-hidden rounded-lg">
               <div 
@@ -94,8 +94,8 @@ const LoreSection: React.FC = () => {
               ></div>
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-4">
-                <h3 className="font-orbitron text-xl text-white">The Terran Alliance Initiative</h3>
-                <p className="text-cyan-glow text-sm">Your Gateway to Interstellar Prosperity</p>
+                <h3 className="font-orbitron text-xl text-white">The Interstellar Alliance</h3>
+                <p className="text-cyan-glow text-sm">A Partnership of Two Worlds</p>
               </div>
             </div>
             
@@ -103,14 +103,14 @@ const LoreSection: React.FC = () => {
               <div className="flex items-start">
                 <Shield className="h-6 w-6 text-magenta-glow mr-3 mt-1 shrink-0" />
                 <p className="text-gray-300">
-                  Their quantum scans revealed Earth's Base Network—a perfect host for $CIGAR's resurrection. A foundation strong enough to bridge worlds.
+                  Earth's Base Network presents an unprecedented opportunity. Its architecture aligns perfectly with $CIGAR's quantum matrix, promising exponential growth for both civilizations.
                 </p>
               </div>
               
               <div className="flex items-start">
                 <Zap className="h-6 w-6 text-magenta-glow mr-3 mt-1 shrink-0" />
                 <p className="text-gray-300">
-                  Now, they seek Earth's boldest minds. Join the alliance, help restore $CIGAR, and claim your share of Smoketron's legendary wealth.
+                  To the bold pioneers of Earth who join us: your role in this alliance will be legendary. Together, we'll forge a new chapter in the story of both our worlds.
                 </p>
               </div>
             </div>

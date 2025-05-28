@@ -76,19 +76,19 @@ const HeroSection: React.FC = () => {
         </div>
         
         <div className="space-y-1 mb-6">
-          <p className="text-cyan-glow font-exo uppercase tracking-widest text-sm md:text-base">Transmission Intercepted: Year 2025</p>
+          <p className="text-cyan-glow font-exo uppercase tracking-widest text-sm md:text-base">Interstellar Protocol Alignment</p>
           <h1 className="font-orbitron text-4xl md:text-6xl lg:text-7xl font-bold text-white glow-text">
-            The <span className="text-cyan-glow">$CIGAR</span> Protocol<br />Awaits Your Command
+            Join The <span className="text-cyan-glow">$CIGAR</span><br />Protocol Alliance
           </h1>
         </div>
         
         <p className="font-spaceMono text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-          A desperate signal from Smoketron reaches Earth. Their civilization falters.<br/>
-          Your alliance could rewrite the destiny of two worlds.
+          Two civilizations. One groundbreaking protocol.<br/>
+          Be among the first Terrans chosen to shape this legendary partnership.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg">
-            Join The Alliance
+            Accept The Invitation
           </Button>
           <Button 
             variant="outline" 
@@ -108,7 +108,7 @@ const HeroSection: React.FC = () => {
         onClick={scrollToNextSection}
       >
         <div className="flex flex-col items-center">
-          <span className="text-cyan-glow text-sm mb-2 font-exo">Decode The Message</span>
+          <span className="text-cyan-glow text-sm mb-2 font-exo">Begin The Journey</span>
           <ChevronDown className="h-6 w-6 text-cyan-glow animate-bounce" />
         </div>
       </div>
