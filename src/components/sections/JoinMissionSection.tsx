@@ -110,7 +110,7 @@ const JoinMissionSection: React.FC = () => {
                 
                 <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
                   <div className="text-gray-400 text-sm order-2 md:order-1">
-                    By joining, you accept the terms of the interstellar cooperation agreement.
+                    By joining, you accept the call of duty within the Terran Alliance.
                   </div>
                   <Button 
                     type="submit" 
@@ -133,7 +133,7 @@ const JoinMissionSection: React.FC = () => {
                 <CheckCircle className="h-16 w-16 text-cyan-glow mx-auto mb-4" />
                 <h3 className="font-orbitron text-2xl text-white mb-2">Registration Complete!</h3>
                 <p className="text-gray-300 mb-6">
-                  You've been added to the Smoketron mission. Watch for communications about the Etherion airdrop.
+                Welcome, Terran Ally! You're in the $CIGAR mission. Await news on the $CIGAR airdrop.
                 </p>
                 
                 {/* Bagian Referral Link */}
@@ -194,7 +194,7 @@ const JoinMissionSection: React.FC = () => {
             <div className="tech-card animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-300">
               <h3 className="font-orbitron text-lg text-cyan-glow mb-2">Pioneer Discovery</h3>
               <p className="text-gray-400 text-sm">
-              Become a pioneer in discovery. Your unique signature helps map and unlock Etherion pathways across the Base Network.
+              Become a pioneer in discovery. Your unique signature helps chart new technological pathways on the Base Network.
               </p>
             </div>
             
