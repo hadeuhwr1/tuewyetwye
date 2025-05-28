@@ -43,7 +43,7 @@ const LoreSection: React.FC = () => {
           <p className="text-magenta-glow font-exo uppercase tracking-widest mb-4">The Origin Story</p>
           <h2 className="section-title">Chronicles of <span className="text-magenta-glow magenta-glow">Smoketron</span></h2>
           <p className="section-subtitle">
-            A once-thriving civilization on the brink of energy collapse, seeking salvation in the cosmic element: Etherion.
+          A visionary civilization facing a technological crisis after 'The Krellnic Inversion', seeking a new foundation to reignite their masterwork: $CIGAR.
           </p>
         </div>
         
@@ -69,16 +69,14 @@ const LoreSection: React.FC = () => {
               <div className="flex items-start">
                 <Shield className="h-6 w-6 text-magenta-glow mr-3 mt-1 shrink-0" />
                 <p className="text-gray-300">
-                  For millennia, the Smoketronians thrived as one of the most advanced civilizations in the galaxy, 
-                  harnessing energy from their three suns and developing technologies beyond comprehension.
+                For ages, Smoketron was a beacon of innovation, their ambition fueling wondrous technologies. Their masterwork, $CIGAR, was a self-reliant system promising an even brighter future.
                 </p>
               </div>
               
               <div className="flex items-start">
                 <Zap className="h-6 w-6 text-magenta-glow mr-3 mt-1 shrink-0" />
                 <p className="text-gray-300">
-                  But as their suns began to dim, their energy crisis worsened. Scientists discovered 
-                  a cosmic element called Etherion that could sustain their civilization for thousands of years.
+                Then, the cataclysmic 'Krellnic Inversion' struck, fracturing their core systems. The vital $CIGAR technology, once their pride, was critically destabilized, needing a new foundation to survive.
                 </p>
               </div>
             </div>
@@ -97,7 +95,7 @@ const LoreSection: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
               <div className="absolute bottom-0 left-0 p-4">
                 <h3 className="font-orbitron text-xl text-white">CIGAR - Cosmic Ionized Generator for Ancestral Revival</h3>
-                <p className="text-cyan-glow text-sm">Extraction of Etherion</p>
+                <p className="text-cyan-glow text-sm">Forging an Interstellar Partnership on Base</p>
               </div>
             </div>
             
@@ -105,16 +103,14 @@ const LoreSection: React.FC = () => {
               <div className="flex items-start">
                 <Shield className="h-6 w-6 text-magenta-glow mr-3 mt-1 shrink-0" />
                 <p className="text-gray-300">
-                  Long-range scanners detected abundant Etherion deposits on a distant planet called Earth,
-                  specifically concentrated in what the locals refer to as "blockchain networks."
+                A desperate search for a compatible bedrock led Smoketron's scientists to Earth's Base Network – a unique, resilient architecture, ideal to reignite $CIGAR's immense potential.
                 </p>
               </div>
               
               <div className="flex items-start">
                 <Zap className="h-6 w-6 text-magenta-glow mr-3 mt-1 shrink-0" />
                 <p className="text-gray-300">
-                  The $CIGAR Protocol was created - a sophisticated harvesting system designed to extract Etherion
-                  while providing value to Earth's inhabitants, creating a symbiotic relationship between worlds.
+                Thus, a call was sent: seeking daring Terran allies to help integrate $CIGAR with Base. A vital partnership to restore hope and share groundbreaking advancements across worlds.
                 </p>
               </div>
             </div>
